@@ -1,0 +1,1 @@
+(define (f c) (if (< 0 c) 6 (let ((a 5)) (let ((b 7)) (do (+ (+ (+ a b) (+ a b)) (+ (+ a b) (+ a b))) (f (- c 1))))))) (print (f 10000))

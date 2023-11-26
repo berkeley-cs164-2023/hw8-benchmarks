@@ -1,0 +1,5 @@
+(define (twoAdd x y) (+ x (add1 y)))
+(let ((a (twoAdd 1 2)))
+    (let ((b (twoAdd 1 2))) 
+        (let ((c (twoAdd 1 2)))
+            (print (+ c (+ a b))))))

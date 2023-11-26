@@ -1,0 +1,1 @@
+(define (subtract1 x) (- x 1)) (print (+ (+ (subtract1 10) (subtract1 10)) (- (subtract1 10) (- (subtract1 10) 4))))

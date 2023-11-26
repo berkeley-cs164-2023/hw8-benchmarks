@@ -1,0 +1,5 @@
+(define (sum a b) (+ a b)) 
+(let ((x (sum 2 3))) 
+(let ((y (sum 4 5))) 
+(let ((z (sum x y))) 
+(print z))))

@@ -1,0 +1,1 @@
+(define (g x) (+ x 1)) (define (h x) (+ x 1)) (define (j x) (+ x 1)) (define (k x) (+ x 1)) (define (l x) (+ x 1)) (define (f x y) (+ (g y) (h (+ (j x) (+ (l x) (k y)))))) (print (let ((x 2)) (let ((y 3)) (f (g y) (h x)))))

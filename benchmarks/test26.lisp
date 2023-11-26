@@ -1,0 +1,1 @@
+(define (f x y) (if (= 1 3) (+ x y) (- x y))) (print (- (+ 1 (+ 2 (f 4 9))) (read-num)))

@@ -1,0 +1,1 @@
+(define (difference x y) (- x y)) (let ((x 5)) (difference x 10))

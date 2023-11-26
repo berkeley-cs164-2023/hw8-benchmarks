@@ -1,0 +1,1 @@
+(define (expressions x y) (+  (+ (+ 2 (+ x y)) (- 3 (+ x y))) (+ (+ 2 (+ x y)) (- 3 (+ x y))))) (define (call) (+ (+ (expressions 1 2) (expressions 3 4)) (- (expressions 1 2) (expressions 3 4)))) (call)

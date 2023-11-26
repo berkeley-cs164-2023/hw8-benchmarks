@@ -1,0 +1,1 @@
+(define (addfive x) (+ x 5)) (do (let ((y 100)) (addfive y)) (print (addfive 100)))

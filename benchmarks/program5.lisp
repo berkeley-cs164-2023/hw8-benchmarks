@@ -1,0 +1,1 @@
+(let ((x (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 5)))))))))) (let ((y (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 3))))))))))) (+ (+ (+ (- x x) (+ x y)) (+ x x)) (+ (+ x y) (+ y y)))))

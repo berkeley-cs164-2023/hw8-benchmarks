@@ -1,0 +1,1 @@
+(do (print (+ (+ (read-num) 1) 5)) (print (- 4 2)))

@@ -1,0 +1,1 @@
+(define (add2 x) (+ x 2)) (define (sub2 y) (- y -2)) (print (add2 (add2 (add2 (sub2 (sub2 3))))))

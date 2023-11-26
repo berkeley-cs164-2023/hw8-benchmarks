@@ -1,0 +1,1 @@
+(define (f a) (add1 (add1 (add1 (add1 (add1 a)))))) (print (f 1))

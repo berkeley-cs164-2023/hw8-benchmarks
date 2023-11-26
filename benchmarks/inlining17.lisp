@@ -1,0 +1,5 @@
+(define (g a b) (+ (add1 a) (- 9 2)))
+(define (f x y) (+ (+ x y) (g x y)))
+(let ((x 2))
+  (let ((y 3))
+    (f y x)))

@@ -1,0 +1,5 @@
+(define (f x) (add1 x))
+(define (add x) (+ x 4))
+(define (sub x) (- x 9))
+(define (mul x) (+ x x))
+(print (mul (sub (f 4))))

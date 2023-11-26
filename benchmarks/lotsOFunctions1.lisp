@@ -1,0 +1,1 @@
+(define (a x) (b x)) (define (b y) (c y)) (define (c z) (+ z 1)) (define (repeat times) (if (= times 0) 0 (a (repeat (- times 1))))) (print (repeat 100000))

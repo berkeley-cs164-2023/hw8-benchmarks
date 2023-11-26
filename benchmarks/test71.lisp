@@ -1,0 +1,1 @@
+(define (f x y) (add1 (+ x y))) (print (+ (- (f 6 9) (add1 (f 6 9))) (- (f 9 6) (f 6 9))))

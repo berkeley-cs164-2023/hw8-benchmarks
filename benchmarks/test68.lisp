@@ -1,0 +1,1 @@
+(define (f x y) (if (< x 0) (+ (- x y) (+ y y)) 1)) (print (+ (f 10 5) (f 4 7)))

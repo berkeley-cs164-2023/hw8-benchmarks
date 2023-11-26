@@ -1,0 +1,1 @@
+(define (expensiveFunction n)    (if (zero? n)         0         (expensiveFunction ( - n 1))    ))(print (+ (+ (+ (expensiveFunction 50) (expensiveFunction 50)) (expensiveFunction 50)) (expensiveFunction 50)))

@@ -1,0 +1,1 @@
+(define (foldable_lets x) (let ((a 3)) (let ((b 4)) (let ((c 4)) (+ x (+ a (+ b (+ c)))) ) ) ) ) (print (foldable_lets 6))

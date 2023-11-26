@@ -1,0 +1,1 @@
+(define (f x y) (do (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y) (g x y))) (define (g x y) (do (h x y) (h x y) (h x y) (h x y) (h x y) (h x y) (h x y) (h x y))) (define (h x y) (+ x y)) (let ((x 3)) (print (f x 3)))

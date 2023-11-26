@@ -1,0 +1,1 @@
+(print (if true (add1 4) (read-num)))

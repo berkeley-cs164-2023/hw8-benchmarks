@@ -1,0 +1,1 @@
+(print (add1 (add1 (add1 (read-num)))))

@@ -1,0 +1,1 @@
+(define (f x) (add1 x)) (let ((x 9)) (let ((x (+ x 5))) (print (f x))))

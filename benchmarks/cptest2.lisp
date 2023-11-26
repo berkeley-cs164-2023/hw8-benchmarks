@@ -1,0 +1,7 @@
+(define (double a) (+ a a))
+(define (triple a) (+ a (double a)))
+(define (isequal a b) (= a b))
+(let ((x (double 2))) 
+(let ((y (+ 2 x)))
+(let ((z (triple 2)))
+(print (isequal y z)))))
