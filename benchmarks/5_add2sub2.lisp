@@ -1,0 +1,1 @@
+(define (add2 x) (+ x 2)) (define (sub2 x) (- x 2)) (print (let ((x 20)) (if (< 1 2) (add2 (add2 (add2 x))) (sub2 (sub2 (sub2 x))))))

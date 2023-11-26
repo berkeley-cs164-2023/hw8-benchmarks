@@ -1,0 +1,1 @@
+(define (add2 x) (+ x 2)) (print (add2 (+ (add2 2) (add2 2))))

@@ -1,0 +1,20 @@
+(define (f x y) (print (- (+ x y) x)))
+
+(let ((x 2))
+  (let ((y 3))
+    (if (< x y)
+      (do
+        (f x y)
+        (f x y)
+        (f x y)
+        (f x y)
+        (f x y)
+      )
+      (do
+        (f y x)
+        (f y x)
+        (f y x)
+      )
+    )
+  )
+)

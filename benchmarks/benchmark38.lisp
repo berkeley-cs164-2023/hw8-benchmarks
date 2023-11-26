@@ -1,0 +1,1 @@
+(print (do (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4) (if true 3 4)))

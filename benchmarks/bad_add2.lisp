@@ -1,0 +1,5 @@
+(define (add2 x) (+ 1 (add1 x)))
+(define (add3 x) (+ 1 (add2 x)))
+(define (add4 x) (+ 1 (add3 x)))
+(define (add5 x) (+ 1 (add4 x)))
+(print (+ (add5 (read-num)) (add5 10)))

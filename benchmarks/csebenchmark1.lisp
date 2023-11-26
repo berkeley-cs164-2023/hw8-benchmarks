@@ -1,0 +1,1 @@
+(define (quad x) (+ (+ x x) (+ x x))) (let ((x 4)) (quad x))

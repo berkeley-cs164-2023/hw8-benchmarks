@@ -1,0 +1,1 @@
+(print (let ((y (- 100 (+ 100 (add1 1))))) (let ((x (add1 (sub1 (add1 (+ 55 (sub1 10))))))) (let ((a (= x y))) (let ((z (< x y))) (if z a z))))))

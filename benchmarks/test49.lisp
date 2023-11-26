@@ -1,0 +1,1 @@
+(define (g a) (add1 a)) (define (f x y) (+ (+ x (g y)) (- x y))) (print (let ((z 3)) (f z z)))

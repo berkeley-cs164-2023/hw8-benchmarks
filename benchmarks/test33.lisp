@@ -1,0 +1,1 @@
+(define (f x y) (+ x y)) (define (g x y) (- x y)) (define (h x y) (+ x (- x y) )) (f (f 1 (f 2 1)) (g 2 (h 2 1)))

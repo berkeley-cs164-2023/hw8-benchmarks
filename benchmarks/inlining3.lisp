@@ -1,0 +1,1 @@
+(define (addOne x) (+ x x)) (define (addTwo x) (+ x (addOne x))) (define (addThree x) (+ x (addTwo x))) (define (addFour x) (+ x (addThree x))) (define (addFive x) (+ x (addFour x))) (define (call) (addFive 2)) (call)

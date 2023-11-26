@@ -1,0 +1,1 @@
+(define (f x) (+ 1 x)) (print (if (< (f 5) 7) (f 1) (if (< (f 1) 7) (f 2) (f 3))))

@@ -1,0 +1,1 @@
+(define (f x) (+ x (add1 (sub1 (+ x 165))))) (print (f 10))

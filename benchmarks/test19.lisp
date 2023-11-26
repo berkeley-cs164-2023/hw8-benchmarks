@@ -1,0 +1,1 @@
+(define (f x) (+ x x)) (define (g x) (- x 1)) (let ((x 5)) (f (g (f (g (f (g (f (g (f (g (f (g (f (g (f (g x)))))))))))))))))

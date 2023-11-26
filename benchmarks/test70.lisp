@@ -1,0 +1,1 @@
+(define (f a) (if (= (add1 2) 3) 0 (add1 a))) (print (f 5))

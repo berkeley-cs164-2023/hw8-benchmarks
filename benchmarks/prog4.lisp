@@ -1,0 +1,1 @@
+(print (let ((a 1)) (+ a (add1 (- 6 (add1 4))))))

@@ -1,0 +1,10 @@
+(define (len xs)
+    (if (empty? xs) 0
+        (+ 1 (len (right xs)))))
+(define (f xs)
+    (+ (len xs) (+ (len xs) (+ (len xs) (len xs)))))
+(define (range n m)
+    (if (< m (+ n 1))
+        ()
+        (pair n (range (+ n 1) m))))
+(print (pair (f (range 0 100)) (f (range 0 100))))

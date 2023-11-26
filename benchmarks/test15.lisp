@@ -1,0 +1,1 @@
+(print (+ (let ((x 1))(let((y 6))) (+ (+ x x) (+ y y))) (let ((x 2))(let((y 5))) (+ (+ x x) (+ y y)))))

@@ -1,0 +1,7 @@
+(define (f x)
+  (+ x 1))
+(define (g y)
+  (- y 1))
+(define (h z)
+  (+ z (+ z (+ z 0))))
+(f (g (h (h (g (f 1))))))

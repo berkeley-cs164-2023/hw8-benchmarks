@@ -1,0 +1,20 @@
+(define (fib num1 num2 n) (
+	if (< 0 n)
+		(let ((num3 (+ num1 num2)))
+			(pair num3 (fib num2 num3 (sub1 n)))
+		)
+		()
+))
+
+(do
+	(print (fib 0 1 50))
+	(print (newline))
+	(print (fib 0 1 50))
+	(print (newline))
+	(print (fib 0 1 50))
+	(print (newline))
+	(print (fib 0 1 50))
+	(print (newline))
+	(print (fib 0 1 50))
+	(print (newline))
+)

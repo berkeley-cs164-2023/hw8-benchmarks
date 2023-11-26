@@ -1,0 +1,7 @@
+(define (loop lst) 
+    (if (empty? lst) 
+            (print 1)
+            (let ((x (+ 999 (+ 333 (+ 444 7777)))))
+                (do (print (+ x (+ (add1 (add1 (sub1 2))) (left lst))))
+                (loop (right lst))))))
+(loop (pair 1 (pair 2 (pair 3 (pair 4 (pair 5 (pair 6 (pair 7 (pair 8 (pair 9 (pair 10 (pair 11 (pair 12 (pair 13 (pair 14 (pair 15 (pair 16 (pair 17 (pair 18 (pair 19 (pair 20 (pair 21 (pair 22 (pair 23 (pair 24 (pair 25 (pair 26 (pair 27 (pair 28 (pair 29 (pair 30 (pair 31 (pair 32 (pair 33 (pair 34 (pair 35 (pair 36 (pair 37 (pair 38 (pair 39 (pair 40 (pair 41 (pair 42 (pair 43 (pair 44 (pair 45 (pair 46 (pair 47 (pair 48 (pair 49 50))))))))))))))))))))))))))))))))))))))))))))))))))

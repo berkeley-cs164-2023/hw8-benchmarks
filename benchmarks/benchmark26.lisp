@@ -1,0 +1,13 @@
+(define (f x y) (+ x y))
+(define (g a b) (+ 5 (+ 1 (+ 2 (f a b)))))
+(let ((x 2))
+  (let ((y 3))
+    (do 
+        (f y x)
+        (f 1 2)
+        (print (f (+ 5 (+ 0 0)) (sub1 (add1 (sub1 (- 10 2))))))
+        (f 3 (f 1 2))
+        (print (g 7 7))
+    )
+  )
+)

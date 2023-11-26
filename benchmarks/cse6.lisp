@@ -1,0 +1,17 @@
+(define (fib x)
+    (if (< x 3) 
+        1
+        (+ (fib (- x 1)) (fib (- x 2)))
+    )
+)
+(let ((k 39))
+    (do
+        (fib k) 
+        (fib k) 
+        (fib k) 
+        (fib k) 
+        (fib k) 
+        (fib k) 
+        (print (fib k))
+    )
+)
