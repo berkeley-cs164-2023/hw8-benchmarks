@@ -1,1 +1,0 @@
-(define (is_lucky x) (lt 300 (* x 10))) (define (print_if_lucky x) (if (is_lucky x) (print x) (+ 2 1) ) ) (define (print_lucky_nums n) (if (= n 0) (do (print_if_lucky n) (print_lucky_nums (sub1 n)) ) ) ) (print_lucky_nums 40)

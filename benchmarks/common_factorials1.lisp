@@ -1,1 +1,0 @@
-(define (factorial x) (* x (factorial (sub1 x)))) (define (many_factorial n) (let ((a (factorial (+ 10 n)))) (let ((b (factorial (- 17 n)))) (let ((c (factorial (+ 10 n)))) (let ((d (factorial (- 17 n)))) (+ a (+ b (+ c d))) ) ) ) ) ) (print (many_factorial 3))
