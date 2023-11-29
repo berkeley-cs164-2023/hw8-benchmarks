@@ -1,1 +1,0 @@
-(define (f x, y) (+ x y)) (print + (f 1 (5))(f 2 (6)) )
